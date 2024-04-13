@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Уведомления</title>
+</head>
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="" class="header__logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li class="menu-item current-menu-item">
+                                <a href="">Мероприятия</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Статьи</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">Мастера</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header-action _flex">
+                        <div class="header-search">
+                            <button class="header-search__show m-btn m-btn-primary-outline">
+                                <img class="_view1" src="img/search.svg" alt="">
+                                <img class="_view2" src="img/close.svg" alt="">
+                            </button>
+                            <div class="header-search__hidden">
+                                <div class="fg search-field">
+                                    <input type="text" placeholder="Поиск по сайту">
+                                    <img src="img/search.svg" alt="" class="search-field__icon">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="header-action__login m-btn m-btn-primary">
+                            <img src="img/user.svg" alt="">
+                            <span>Войти</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main class="content">
+
+            <div class="profile">
+                <div class="container">
+                    <div class="profile__grid">
+                        <div class="profile__col">
+                            <div class="profile-nav">
+                                <div class="profile-nav__show">
+                                    <div class="profile-nav__current">
+
+                                    </div>
+                                </div>
+                                <div class="profile-nav__hidden">
+                                    <div class="profile-nav__links">
+                                        <a href="" class="profile-nav__link ">
+                                            <span class="profile-nav__link-title">Мой профиль</span>
+                                        </a>
+                                        <a href="" class="profile-nav__link _active">
+                                            <span class="profile-nav__link-title">Уведомления</span>
+                                            <span class="profile-nav__link-count">
+                    2
+                </span>
+                                        </a>
+                                        <a href="" class="profile-nav__link ">
+                                            <span class="profile-nav__link-title">Сообщения</span>
+                                        </a>
+                                        <a href="" class="profile-nav__link ">
+                                            <span class="profile-nav__link-title">Мои публикации</span>
+                                        </a>
+                                        <a href="" class="profile-nav__link ">
+                                            <span class="profile-nav__link-title">Мои записи</span>
+                                        </a>
+                                        <a href="" class="profile-nav__link ">
+                                            <span class="profile-nav__link-title">Избранное</span>
+                                        </a>
+                                        <a href="" class="profile-nav__link _logout">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.26975 1.41681L12.4429 1.41681C13.5771 1.41681 14.4973 2.34041 14.4973 3.47114L14.4973 13.5289C14.4973 14.663 13.5737 15.5832 12.4429 15.5832L8.20184 15.5832C7.94717 15.5832 7.74343 15.7869 7.74343 16.0416C7.74343 16.2963 7.94717 16.5 8.20184 16.5L12.4429 16.5C14.083 16.5 15.4141 15.1655 15.4141 13.5289L15.4141 3.47114C15.4141 1.83107 14.0796 0.500001 12.4429 0.500001L8.26975 0.500001C8.01508 0.500001 7.81135 0.703736 7.81135 0.958405C7.81135 1.21307 8.01848 1.41681 8.26975 1.41681Z" fill="#424242" />
+                                                <path d="M0.717794 8.82271L3.63121 11.7361C3.81117 11.9161 4.0998 11.9161 4.27976 11.7361C4.45973 11.5562 4.45973 11.2675 4.27976 11.0876L2.14734 8.95513L11.4478 8.95514C11.7025 8.95514 11.9063 8.7514 11.9063 8.49673C11.9063 8.24206 11.7025 8.03833 11.4478 8.03833L2.14734 8.03833L4.27976 5.9059C4.45973 5.72593 4.45973 5.43731 4.27976 5.25734C4.19148 5.16906 4.07263 5.12152 3.95718 5.12152C3.84173 5.12152 3.72289 5.16566 3.6346 5.25734L0.721189 8.17075C0.537827 8.35412 0.537828 8.64614 0.717794 8.82271Z" fill="#424242" />
+                                            </svg>
+                                            <span class="profile-nav__link-title">Выйти</span>
+                                        </a>
+                                    </div>
+                                    <div class="profile-nav__bottom">
+                                        <button class="profile-nav__btn m-btn m-btn-black">
+                                            <img src="img/message.svg" alt="">
+                                            <span>Обратная связь</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="profile__col">
+                            <div class="notification">
+                                <h1 class="h1">
+                                    Уведомления
+                                </h1>
+
+                                <div class="notification__items">
+                                    <div class="notification-card">
+                                        <div class="faq-card__badge">
+                                            <span>Новое уведомление</span>
+                                        </div>
+                                        <div class="notification-card__info _flex-between">
+                                            <div class="notification-card__title text18">
+                                                Жалоба принята
+                                            </div>
+                                            <div class="notification-card__date text14">
+                                                14.03.23
+                                            </div>
+                                        </div>
+                                        <div class="notification-card__desc text16">
+                                            Forem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                        </div>
+                                    </div>
+
+                                    <div class="notification-card">
+                                        <div class="faq-card__badge">
+                                            <span>Новое уведомление</span>
+                                        </div>
+                                        <div class="notification-card__info _flex-between">
+                                            <div class="notification-card__title text18">
+                                                Жалоба принята
+                                            </div>
+                                            <div class="notification-card__date text14">
+                                                14.03.23
+                                            </div>
+                                        </div>
+                                        <div class="notification-card__desc text16">
+                                            Forem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <a href="" class="footer__logo">
+                        <img src="img/logo2.svg" alt="">
+                    </a>
+                    <div class="footer-nav">
+                        <div class="text16 semi-bold-text">
+                            Партнерам и организаторам
+                        </div>
+                        <div class="footer-nav__links">
+                            <a href="" class="footer-nav__link"><span>Партнерам и оргинизаторам</span></a>
+                            <a href="" class="footer-nav__link"><span>Корпоративным клиентам</span></a>
+                        </div>
+                    </div>
+                    <form class="footer-subscribe">
+                        <div class="text16 semi-bold-text">
+                            Будьте всегда в курсе анонсов и событий!
+                        </div>
+                        <div class="footer-subscribe__wrap fg">
+                            <input type="text" placeholder="Ваш e-mail">
+                            <button class="footer-subscribe__btn m-btn m-btn-primary">
+                                <img src="img/mail.svg" alt="">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-categories">
+                    <div class="footer-categories__items">
+                        <a href="" class="footer-categories__item">Дыхание</a>
+                        <a href="" class="footer-categories__item">Цигун</a>
+                        <a href="" class="footer-categories__item">Йога</a>
+                        <a href="" class="footer-categories__item">Тантра</a>
+                        <a href="" class="footer-categories__item">Фестиваль</a>
+                        <a href="" class="footer-categories__item">Баня</a>
+                        <a href="" class="footer-categories__item">Семинар</a>
+                        <a href="" class="footer-categories__item">Танцы</a>
+                        <a href="" class="footer-categories__item">Спортивное мерприятие</a>
+                        <a href="" class="footer-categories__item">Мастер класс</a>
+                        <a href="" class="footer-categories__item">Шоу</a>
+                        <a href="" class="footer-categories__item">Общение</a>
+                        <a href="" class="footer-categories__item">Выставка</a>
+                        <a href="" class="footer-categories__item">Нейрографика</a>
+                        <a href="" class="footer-categories__item">Нетворкинг</a>
+                        <a href="" class="footer-categories__item">Игры</a>
+                        <a href="" class="footer-categories__item">Курсы</a>
+                        <a href="" class="footer-categories__item">Праздничное мероприятие</a>
+                        <a href="" class="footer-categories__item">Обучение</a>
+                        <a href="" class="footer-categories__item">Лекция</a>
+                        <a href="" class="footer-categories__item">Ретрит</a>
+                    </div>
+                    <div class="footer-categories__nav">
+                        <a href="" class="footer-categories__link">
+                            <span class="text12">Смотреть все</span>
+                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.99994 6.22224C3.9592 6.22228 3.91886 6.21427 3.88122 6.19867C3.84359 6.18308 3.80941 6.1602 3.78064 6.13135L0.678794 3.0295C0.557589 2.9083 0.557589 2.71203 0.678794 2.5909C0.799999 2.46978 0.996268 2.4697 1.1174 2.5909L3.99994 5.47345L6.88249 2.5909C7.0037 2.4697 7.19997 2.4697 7.32109 2.5909C7.44222 2.71211 7.4423 2.90838 7.32109 3.0295L4.21924 6.13135C4.19048 6.1602 4.1563 6.18308 4.11866 6.19867C4.08103 6.21427 4.04068 6.22228 3.99994 6.22224Z" fill="#BDDA13" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="text14">
+                        2023 Все права защищены
+                    </div>
+                    <a href="" class="footer__c text14">
+                        Политика конфиденциальности
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <div class="modal" id="thankModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top">
+                <div class="text30 text24-tablet semi-bold-text text-center">
+                    Спасибо за уделенное время
+                </div>
+            </div>
+            <a href="" class="modal__btn m-btn m-btn-primary">
+                <span>На главную</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="modal" id="cityModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top">
+                <div class="text30 text24-tablet semi-bold-text text-center">
+                    Найти город
+                </div>
+            </div>
+            <div class="fg search-field _mt30">
+                <input type="text" placeholder="Введите название города">
+                <img src="img/search.svg" alt="" class="search-field__icon">
+            </div>
+            <div class="cities _mt16">
+                <div class="cities__items">
+                    <div class="cities__item"><span>Абаза</span></div>
+                    <div class="cities__item"><span>Абакан</span></div>
+                    <div class="cities__item"><span>Абдулино</span></div>
+                    <div class="cities__item"><span>Абинск</span></div>
+                    <div class="cities__item"><span>Агидель</span></div>
+                    <div class="cities__item"><span>Агрыз</span></div>
+                    <div class="cities__item"><span>Адыгейск</span></div>
+                    <div class="cities__item"><span>Азнакаево</span></div>
+                    <div class="cities__item"><span>Азов</span></div>
+                    <div class="cities__item"><span>Ак-Довурак</span></div>
+                    <div class="cities__item"><span>Аксай</span></div>
+                    <div class="cities__item"><span>Алагир</span></div>
+                    <div class="cities__item"><span>Алапаевск</span></div>
+                    <div class="cities__item"><span>Алатырь</span></div>
+                    <div class="cities__item"><span>Алдан</span></div>
+                    <div class="cities__item"><span>Ак-Довурак</span></div>
+                    <div class="cities__item"><span>Аксай</span></div>
+                    <div class="cities__item"><span>Алагир</span></div>
+                    <div class="cities__item"><span>Алапаевск</span></div>
+                    <div class="cities__item"><span>Алатырь</span></div>
+                    <div class="cities__item"><span>Алдан</span></div>
+                </div>
+                <div class="cities__nav">
+                    <button class="_close-modal cities__btn m-btn m-btn-primary">
+                        <span>Применить</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="thankModal2">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Жалоба отправлена
+                </div>
+                <div class="text16 font2 medium-text">
+                    Мы рассмотрим вашу жалобу <br> и примем меры, о которых сообщим в уведомлении, спасибо
+                </div>
+            </div>
+            <a href="" class="modal__btn m-btn m-btn-primary">
+                <span>На главную</span>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="modal" id="changeProcessingModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Ваш запрос на изменение профиля находится в обработке
+                </div>
+                <div class="text16 font2 medium-text">
+                    При необходимости с вами свяжутся для уточнения данных
+                </div>
+            </div>
+            <a href="" class="modal__btn m-btn m-btn-primary">
+                <span>Перейти в профиль</span>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="modal" id="claimModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Пожаловаться на мероприятие
+                </div>
+            </div>
+            <form action="" class="modal-form">
+                <div class="fg">
+                    <label>Текст жалобы</label>
+                    <textarea placeholder="Напишите.."></textarea>
+                </div>
+            </form>
+            <button class="modal__btn m-btn m-btn-primary">
+                <span>Отправить</span>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="modal" id="claimModal2">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Пожаловаться на мастера
+                </div>
+            </div>
+            <form action="" class="modal-form">
+                <div class="fg">
+                    <label>Текст жалобы</label>
+                    <textarea placeholder="Напишите.."></textarea>
+                </div>
+            </form>
+            <button class="modal__btn m-btn m-btn-primary">
+                <span>Отправить</span>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="modal" id="loginModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Вход
+                </div>
+            </div>
+            <form action="" class="modal-form modal-form2">
+                <div class="fg">
+                    <label>E-mail или номер телефона</label>
+                    <input type="text" placeholder="pochta@mail.ru">
+                </div>
+                <div class="modal-form__pass">
+                    <fieldset class="fg">
+                        <label>Пароль</label>
+                        <div class="fg__field">
+                            <input type="password" placeholder="">
+                            <button type="button" class="pass-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.483 10.1684L13.6189 9.03248C13.7015 9.3417 13.75 9.66498 13.75 9.99998C13.75 12.0678 12.0678 13.75 9.99998 13.75C9.66498 13.75 9.3417 13.7015 9.03248 13.6189L10.1684 12.4829C10.7688 12.4422 11.3341 12.1852 11.7597 11.7597C12.1852 11.3341 12.4422 10.7688 12.483 10.1684ZM19.9212 9.69638C19.8444 9.5581 18.754 7.64763 16.6228 6.02857L15.7133 6.9381C17.2673 8.08076 18.252 9.41341 18.6397 10.0009C17.8989 11.1289 14.993 15 9.99998 15C9.25123 15 8.55498 14.9042 7.89983 14.7514L6.87279 15.7784C7.81701 16.0679 8.85483 16.25 9.99998 16.25C16.5426 16.25 19.7864 10.5462 19.9212 10.3036C19.9729 10.2107 20 10.1062 20 9.99998C20 9.89373 19.9729 9.78923 19.9212 9.69638ZM17.3169 3.56685L3.56686 17.3169C3.44483 17.4389 3.28483 17.5 3.12498 17.5C2.96514 17.5 2.80514 17.4389 2.68311 17.3169C2.62504 17.2589 2.57897 17.19 2.54753 17.1141C2.5161 17.0383 2.49992 16.9571 2.49992 16.875C2.49992 16.7929 2.5161 16.7116 2.54753 16.6358C2.57897 16.56 2.62504 16.4911 2.68311 16.4331L4.43248 14.6837C1.60436 12.9764 0.167326 10.4631 0.0787323 10.3036C0.0270977 10.2107 0 10.1062 0 9.9999C0 9.89363 0.0270977 9.78911 0.0787323 9.69623C0.213576 9.45373 3.45733 3.74998 9.99998 3.74998C11.6917 3.74998 13.157 4.13592 14.4097 4.70654L16.4331 2.6831C16.6773 2.43888 17.0728 2.43888 17.3169 2.6831C17.5609 2.92732 17.5611 3.32279 17.3169 3.56685ZM5.36451 13.7517L6.94686 12.1694C6.50983 11.5562 6.24998 10.8086 6.24998 9.99998C6.24998 7.93217 7.93217 6.24998 9.99998 6.24998C10.8086 6.24998 11.5562 6.50982 12.1694 6.9467L13.4489 5.66717C12.438 5.26232 11.2892 4.99998 9.99998 4.99998C5.00701 4.99998 2.10108 8.87107 1.36045 9.99904C1.83076 10.7119 3.18264 12.5162 5.36451 13.7517ZM7.8542 11.2619L11.2619 7.8542C10.8901 7.63466 10.4622 7.49998 9.99998 7.49998C8.62154 7.49998 7.49998 8.62154 7.49998 9.99998C7.49998 10.4622 7.63467 10.8901 7.8542 11.2619Z" fill="#BDDA13" />
+                                </svg>
+                            </button>
+                        </div>
+                    </fieldset>
+
+                    <div class="modal-form__pass-nav">
+                        <a href="" class="modal-form__pass-link m-link">Забыли пароль?</a>
+                    </div>
+                </div>
+                <button class="m-btn m-btn-primary">
+                    <span>Войти</span>
+                </button>
+                <div class="modal-form__bottom text-center">
+                    <div class="text18 text14-mob">
+                        Еще нет аккаунта? <a href="" class="m-link">Зарегистрироваться</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="regModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Регистрация
+                </div>
+            </div>
+            <div class="modal__scroll">
+                <form action="" class="modal-form modal-form3">
+                    <div class="fg">
+                        <label>E-mail</label>
+                        <input type="email" placeholder="pochta@mail.ru">
+                    </div>
+                    <div class="fg">
+                        <label>Номер телефона</label>
+                        <input type="tel" placeholder="+7">
+                    </div>
+                    <div class="fg">
+                        <label>Имя</label>
+                        <input type="text" placeholder="Например: Иван">
+                    </div>
+                    <div class="modal-form__pass">
+                        <fieldset class="fg">
+                            <label>Пароль</label>
+                            <div class="fg__field">
+                                <input type="password" placeholder="">
+                                <button type="button" class="pass-toggle">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.483 10.1684L13.6189 9.03248C13.7015 9.3417 13.75 9.66498 13.75 9.99998C13.75 12.0678 12.0678 13.75 9.99998 13.75C9.66498 13.75 9.3417 13.7015 9.03248 13.6189L10.1684 12.4829C10.7688 12.4422 11.3341 12.1852 11.7597 11.7597C12.1852 11.3341 12.4422 10.7688 12.483 10.1684ZM19.9212 9.69638C19.8444 9.5581 18.754 7.64763 16.6228 6.02857L15.7133 6.9381C17.2673 8.08076 18.252 9.41341 18.6397 10.0009C17.8989 11.1289 14.993 15 9.99998 15C9.25123 15 8.55498 14.9042 7.89983 14.7514L6.87279 15.7784C7.81701 16.0679 8.85483 16.25 9.99998 16.25C16.5426 16.25 19.7864 10.5462 19.9212 10.3036C19.9729 10.2107 20 10.1062 20 9.99998C20 9.89373 19.9729 9.78923 19.9212 9.69638ZM17.3169 3.56685L3.56686 17.3169C3.44483 17.4389 3.28483 17.5 3.12498 17.5C2.96514 17.5 2.80514 17.4389 2.68311 17.3169C2.62504 17.2589 2.57897 17.19 2.54753 17.1141C2.5161 17.0383 2.49992 16.9571 2.49992 16.875C2.49992 16.7929 2.5161 16.7116 2.54753 16.6358C2.57897 16.56 2.62504 16.4911 2.68311 16.4331L4.43248 14.6837C1.60436 12.9764 0.167326 10.4631 0.0787323 10.3036C0.0270977 10.2107 0 10.1062 0 9.9999C0 9.89363 0.0270977 9.78911 0.0787323 9.69623C0.213576 9.45373 3.45733 3.74998 9.99998 3.74998C11.6917 3.74998 13.157 4.13592 14.4097 4.70654L16.4331 2.6831C16.6773 2.43888 17.0728 2.43888 17.3169 2.6831C17.5609 2.92732 17.5611 3.32279 17.3169 3.56685ZM5.36451 13.7517L6.94686 12.1694C6.50983 11.5562 6.24998 10.8086 6.24998 9.99998C6.24998 7.93217 7.93217 6.24998 9.99998 6.24998C10.8086 6.24998 11.5562 6.50982 12.1694 6.9467L13.4489 5.66717C12.438 5.26232 11.2892 4.99998 9.99998 4.99998C5.00701 4.99998 2.10108 8.87107 1.36045 9.99904C1.83076 10.7119 3.18264 12.5162 5.36451 13.7517ZM7.8542 11.2619L11.2619 7.8542C10.8901 7.63466 10.4622 7.49998 9.99998 7.49998C8.62154 7.49998 7.49998 8.62154 7.49998 9.99998C7.49998 10.4622 7.63467 10.8901 7.8542 11.2619Z" fill="#BDDA13" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                    </div>
+                    <div class="modal-form__pass">
+                        <fieldset class="fg">
+                            <label>Повторите пароль</label>
+                            <div class="fg__field">
+                                <input type="password" placeholder="">
+                                <button type="button" class="pass-toggle">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.483 10.1684L13.6189 9.03248C13.7015 9.3417 13.75 9.66498 13.75 9.99998C13.75 12.0678 12.0678 13.75 9.99998 13.75C9.66498 13.75 9.3417 13.7015 9.03248 13.6189L10.1684 12.4829C10.7688 12.4422 11.3341 12.1852 11.7597 11.7597C12.1852 11.3341 12.4422 10.7688 12.483 10.1684ZM19.9212 9.69638C19.8444 9.5581 18.754 7.64763 16.6228 6.02857L15.7133 6.9381C17.2673 8.08076 18.252 9.41341 18.6397 10.0009C17.8989 11.1289 14.993 15 9.99998 15C9.25123 15 8.55498 14.9042 7.89983 14.7514L6.87279 15.7784C7.81701 16.0679 8.85483 16.25 9.99998 16.25C16.5426 16.25 19.7864 10.5462 19.9212 10.3036C19.9729 10.2107 20 10.1062 20 9.99998C20 9.89373 19.9729 9.78923 19.9212 9.69638ZM17.3169 3.56685L3.56686 17.3169C3.44483 17.4389 3.28483 17.5 3.12498 17.5C2.96514 17.5 2.80514 17.4389 2.68311 17.3169C2.62504 17.2589 2.57897 17.19 2.54753 17.1141C2.5161 17.0383 2.49992 16.9571 2.49992 16.875C2.49992 16.7929 2.5161 16.7116 2.54753 16.6358C2.57897 16.56 2.62504 16.4911 2.68311 16.4331L4.43248 14.6837C1.60436 12.9764 0.167326 10.4631 0.0787323 10.3036C0.0270977 10.2107 0 10.1062 0 9.9999C0 9.89363 0.0270977 9.78911 0.0787323 9.69623C0.213576 9.45373 3.45733 3.74998 9.99998 3.74998C11.6917 3.74998 13.157 4.13592 14.4097 4.70654L16.4331 2.6831C16.6773 2.43888 17.0728 2.43888 17.3169 2.6831C17.5609 2.92732 17.5611 3.32279 17.3169 3.56685ZM5.36451 13.7517L6.94686 12.1694C6.50983 11.5562 6.24998 10.8086 6.24998 9.99998C6.24998 7.93217 7.93217 6.24998 9.99998 6.24998C10.8086 6.24998 11.5562 6.50982 12.1694 6.9467L13.4489 5.66717C12.438 5.26232 11.2892 4.99998 9.99998 4.99998C5.00701 4.99998 2.10108 8.87107 1.36045 9.99904C1.83076 10.7119 3.18264 12.5162 5.36451 13.7517ZM7.8542 11.2619L11.2619 7.8542C10.8901 7.63466 10.4622 7.49998 9.99998 7.49998C8.62154 7.49998 7.49998 8.62154 7.49998 9.99998C7.49998 10.4622 7.63467 10.8901 7.8542 11.2619Z" fill="#BDDA13" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                    </div>
+                    <div class="m-check">
+                        <input type="checkbox">
+                        <label>
+                            <span>
+                        При регистрации и входе вы соглашаетесь с <a href="">условиями использования</a> и
+                        <a href="">политикой обработки данных.</a>
+                    </span>
+                        </label>
+                    </div>
+                    <button class="m-btn m-btn-primary">
+                        <span>Зарегистрироваться</span>
+                    </button>
+                    <div class="modal-form__bottom text-center">
+                        <div class="text18 text14-mob">
+                            Уже есть аккаунт? <a href="" class="m-link">Войти</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="offerModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Служба поддержки
+                </div>
+            </div>
+            <form action="" class="modal-form">
+                <div class="fg">
+                    <label>Ваш вопрос или предложение</label>
+                    <textarea placeholder="Напишите.."></textarea>
+                </div>
+            </form>
+            <button class="modal__btn m-btn m-btn-primary">
+                <span>Отправить</span>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="modal delete-confirm" id="confirmDeleteModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Вы действительно хотите удалить публикацию?
+                </div>
+            </div>
+            <div class="delete-confirm__nav">
+                <button class="delete-confirm__btn m-btn m-btn-primary">
+                    <span>Да</span>
+                </button>
+                <button class="delete-confirm__btn m-btn m-btn-gray">
+                    <span>Нет</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal faq-modal" id="faqModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Вопросы/ответы
+                </div>
+            </div>
+            <div class="modal__scroll">
+                <div class="faq-group">
+                    <div class="text18 semi-bold-text">
+                        Вопросы без ответа
+                    </div>
+                    <div class="faq-group__items">
+                        <div class="faq-card _new">
+                            <div class="faq-card__top _flex">
+                                <div class="avatar">
+                                    <img src="img/avatar.svg" alt="">
+                                </div>
+                                <div class="faq-card__info">
+                                    <div class="faq-card__wrap _flex">
+                                        <div class="faq-card__name">
+                                            Мария
+                                        </div>
+                                        <div class="faq-card__badge">
+                                            <span>Новый вопрос</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq-card__date">
+                                        <span>12.01.2023, 12:43</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-card__desc text16">
+                                Вопрос о мероприятие. Подскажите будут ли обсуждены вопросы о..?
+                            </div>
+                            <div class="faq-card__nav">
+                                <button class="faq-card__btn _toggle-faq-answer m-btn m-btn-primary">
+                                    <span>Ответить</span>
+                                </button>
+                            </div>
+                            <div class="faq-card__answer">
+                                <div class="fg question-form__field m-text-field">
+                                    <textarea maxlength="1000" data-id="1" placeholder="Напишите ответ на вопрос"></textarea>
+                                </div>
+                                <div class="question-form__nav">
+                                    <div class="question-form__buttons">
+                                        <button class="question-form__btn m-btn m-btn-primary">
+                                            <span>Ответить</span>
+                                        </button>
+                                        <button class="_toggle-faq-answer question-form__btn m-btn m-btn-gray">
+                                            <span>Отменить</span>
+                                        </button>
+                                    </div>
+                                    <div class="question-form__info">
+                                        Всего символов <span class="question-form__field-count" data-id="1">0</span>/1000
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq-card ">
+                            <div class="faq-card__top _flex">
+                                <div class="avatar">
+                                    <img src="img/avatar.svg" alt="">
+                                </div>
+                                <div class="faq-card__info">
+                                    <div class="faq-card__wrap _flex">
+                                        <div class="faq-card__name">
+                                            Валентина
+                                        </div>
+                                        <div class="faq-card__badge">
+                                            <span>Новый вопрос</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq-card__date">
+                                        <span>12.01.2023, 12:43</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-card__desc text16">
+                                Вопрос о мероприятие. Подскажите будут ли обсуждены вопросы о..?
+                            </div>
+                            <div class="faq-card__nav">
+                                <button class="faq-card__btn _toggle-faq-answer m-btn m-btn-primary">
+                                    <span>Ответить</span>
+                                </button>
+                            </div>
+                            <div class="faq-card__answer">
+                                <div class="fg question-form__field m-text-field">
+                                    <textarea maxlength="1000" data-id="1" placeholder="Напишите ответ на вопрос"></textarea>
+                                </div>
+                                <div class="question-form__nav">
+                                    <div class="question-form__buttons">
+                                        <button class="question-form__btn m-btn m-btn-primary">
+                                            <span>Ответить</span>
+                                        </button>
+                                        <button class="_toggle-faq-answer question-form__btn m-btn m-btn-gray">
+                                            <span>Отменить</span>
+                                        </button>
+                                    </div>
+                                    <div class="question-form__info">
+                                        Всего символов <span class="question-form__field-count" data-id="1">0</span>/1000
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq-card ">
+                            <div class="faq-card__top _flex">
+                                <div class="avatar">
+                                    <img src="img/avatar.svg" alt="">
+                                </div>
+                                <div class="faq-card__info">
+                                    <div class="faq-card__wrap _flex">
+                                        <div class="faq-card__name">
+                                            Елена
+                                        </div>
+                                        <div class="faq-card__badge">
+                                            <span>Новый вопрос</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq-card__date">
+                                        <span>12.01.2023, 12:43</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-card__desc text16">
+                                Вопрос о мероприятие. Подскажите будут ли обсуждены вопросы о..?
+                            </div>
+                            <div class="faq-card__nav">
+                                <button class="faq-card__btn _toggle-faq-answer m-btn m-btn-primary">
+                                    <span>Ответить</span>
+                                </button>
+                            </div>
+                            <div class="faq-card__answer">
+                                <div class="fg question-form__field m-text-field">
+                                    <textarea maxlength="1000" data-id="1" placeholder="Напишите ответ на вопрос"></textarea>
+                                </div>
+                                <div class="question-form__nav">
+                                    <div class="question-form__buttons">
+                                        <button class="question-form__btn m-btn m-btn-primary">
+                                            <span>Ответить</span>
+                                        </button>
+                                        <button class="_toggle-faq-answer question-form__btn m-btn m-btn-gray">
+                                            <span>Отменить</span>
+                                        </button>
+                                    </div>
+                                    <div class="question-form__info">
+                                        Всего символов <span class="question-form__field-count" data-id="1">0</span>/1000
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="faq-group">
+                    <div class="text18 semi-bold-text">
+                        Ответы
+                    </div>
+                    <div class="faq-group__items">
+                        <div class="faq-card _answered">
+                            <div class="faq-card__top _flex">
+                                <div class="avatar">
+                                    <img src="img/avatar.svg" alt="">
+                                </div>
+                                <div class="faq-card__info">
+                                    <div class="faq-card__wrap _flex">
+                                        <div class="faq-card__name">
+                                            Алиса
+                                        </div>
+                                        <div class="faq-card__badge">
+                                            <span>Новый вопрос</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq-card__date">
+                                        <span>12.01.2023, 12:43</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-card__desc text16">
+                                Вопрос о мероприятие. Подскажите будут ли обсуждены вопросы о..?
+                            </div>
+                            <div class="answer">
+                                <div class="answer__top _flex">
+                                    <div class="answer__name text16 semi-bold-text">
+                                        Дарья Солодаева
+                                    </div>
+                                    <div class="answer__badge _flex">
+                                        <img src="img/crone2.svg" alt="">
+                                        <span class="text12">Мастер</span>
+                                    </div>
+                                </div>
+                                <div class="answer__info">
+                                    <div class="answer__info-text">
+                                        <div class="answer__desc text16">
+                                            Ответ в 2 строки. Подскажите подходит ли под данную модель?Ответ о товаре в 2-4 строки. Подскажите подходит ли под данную модель? Подскажите подходит ли .....
+                                            Ответ в 2 строки. Подскажите подходит ли под данную модель?Ответ о товаре в 2-4 строки. Подскажите подходит ли под данную модель? Подскажите подходит ли .....
+                                        </div>
+                                    </div>
+                                    <button class="answer__more">
+                                        еще
+                                    </button>
+                                </div>
+                                <div class="answer__nav _flex-between">
+                                    <button class="answer__edit m-btn m-btn-black">
+                                        <img src="img/edit2.svg" alt="">
+                                        <span>Редактировать ответ</span>
+                                    </button>
+                                    <button class="publication-card__btn publication-card__btn--delete m-btn">
+                                        <img src="img/delete.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="modal logout-confirm" id="confirmLogoutModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Вы действительно хотите выйти?
+                </div>
+            </div>
+            <div class="delete-confirm__nav">
+                <button class="delete-confirm__btn m-btn m-btn-primary">
+                    <span>Да</span>
+                </button>
+                <button class="delete-confirm__btn m-btn m-btn-gray">
+                    <span>Нет</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal chat-modal" id="chatModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="chat-area">
+                <div class="chat-area__top">
+                    <button class="chat-area__back m-btn m-btn-primary-outline">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M-3.49691e-07 7L7.5 0.0717961L7.5 13.9282L-3.49691e-07 7Z" fill="#BDDA13" />
+                        </svg>
+                        <span>Назад</span>
+                    </button>
+                    <div class="chat-area__title text30 semi-bold-text">
+                        Чат с
+                    </div>
+                    <div class="event-card2__master _flex">
+                        <div class="avatar">
+                            <img src="img/avatar.webp" alt="">
+                        </div>
+                        <span class="text16 text14-tablet">
+                Дарья Солодаева
+            </span>
+                        <img src="img/crone.svg" alt="" class="chat-area__crone">
+                    </div>
+                </div>
+                <div class="chat-area__content">
+                    <div class="chat-area__scroll">
+                        <div class="messages">
+                            <div class="messages__date">
+                                <span>5 февраля</span>
+                            </div>
+                            <div class="message-item _self">
+                                <div class="message-item__content">
+                                    <div class="message-item__text">
+                                        <div class="text16">
+                                            Как дела?
+                                        </div>
+                                    </div>
+                                    <div class="message-item__time">
+                                        <div class="text14">
+                                            08:15
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message-item">
+                                <div class="avatar">
+                                    <img src="img/avatar.webp" alt="">
+                                </div>
+                                <div class="message-item__content">
+                                    <div class="message-item__name">
+                                        <span class="text16 semi-bold-text">
+                            Дарья Солодаева
+                        </span>
+                                        <img src="img/crone.svg" alt="" class="chat-area__crone">
+                                    </div>
+                                    <div class="message-item__text">
+                                        <div class="text16">
+                                            Привет, все хорошо) Придешь на мероприятие 9 апреля?
+                                        </div>
+                                    </div>
+                                    <div class="message-item__time">
+                                        <div class="text14">
+                                            08:16
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message-item _self">
+                                <div class="message-item__content">
+                                    <div class="message-item__text">
+                                        <div class="text16">
+                                            Привет, все хорошо) Придешь на мероприятие 9 апреля?
+                                        </div>
+                                    </div>
+                                    <div class="message-item__time">
+                                        <div class="text14">
+                                            Сейчас
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message-item">
+                                <div class="avatar">
+                                    <img src="img/avatar.webp" alt="">
+                                </div>
+                                <div class="message-item__content">
+                                    <div class="message-item__name">
+                                        <span class="text16 semi-bold-text">
+                            Дарья Солодаева
+                        </span>
+                                        <img src="img/crone.svg" alt="" class="chat-area__crone">
+                                    </div>
+                                    <div class="message-item__animate _flex">
+                                        <div class="loader">
+                                            <div class="loader__circle"></div>
+                                            <div class="loader__circle"></div>
+                                            <div class="loader__circle"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-area__bottom">
+                    <div class="fg">
+                        <input type="text" placeholder="Напишите...">
+                    </div>
+                    <button class="chat-area__btn m-btn m-btn-primary">
+                        <img src="img/send.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal" id="categoryModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top text-center">
+                <div class="text30 text24-tablet semi-bold-text">
+                    Предложить новую <br> категорию мероприятия
+                </div>
+            </div>
+            <form action="" class="modal-form modal-form2">
+                <div class="fg">
+                    <label><span>*</span>Название категории</label>
+                    <input type="text" placeholder="Например: Ивент">
+                </div>
+                <div class="fg">
+                    <label>Описание</label>
+                    <textarea placeholder="Кратко опишите суть мероприятия.."></textarea>
+                </div>
+                <button class="m-btn m-btn-primary">
+                    <span>Отправить</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal participant-modal" id="participantModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="modal__top">
+                <div class="text30 text20-tablet semi-bold-text">
+                    Список участников
+                </div>
+            </div>
+            <div class="modal__scroll">
+                <div class="participant-modal__items">
+                    <div class="participant-item">
+                        <div class="avatar">
+                            <img src="img/avatar.webp" alt="">
+                        </div>
+                        <span>Дарья Солодаева</span>
+                    </div>
+                    <div class="participant-item">
+                        <div class="avatar">
+                            <img src="img/avatar2.svg" alt="">
+                        </div>
+                        <span>Артем Федороско</span>
+                    </div>
+                    <div class="participant-item">
+                        <div class="avatar">
+                            <img src="img/avatar2.webp" alt="">
+                        </div>
+                        <span>Андрей Филименко</span>
+                    </div>
+                    <div class="participant-item">
+                        <div class="avatar">
+                            <img src="img/avatar3.webp" alt="">
+                        </div>
+                        <span>Дарья Солодкина</span>
+                    </div>
+                    <div class="participant-item">
+                        <div class="avatar">
+                            <img src="img/avatar4.webp" alt="">
+                        </div>
+                        <span>Мария Колгина</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal param-modal" id="paramModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog _tabs-parent">
+            <button class="close-btn close-btn-mob _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+            <div class="param-modal__top">
+                <div class="modal__top text-center">
+                    <div class="tab-content _tab1 _active">
+                        <div class="text30 text24-tablet semi-bold-text">
+                            Параметры <span>мероприятия</span>
+                        </div>
+                    </div>
+                    <div class="tab-content _tab2">
+                        <div class="text30 text24-tablet semi-bold-text">
+                            Параметры <span>мастера</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div class="tab _tab _active" data-tab="_tab1">
+                        <span>Мероприятие</span>
+                    </div>
+                    <div class="tab _tab" data-tab="_tab2">
+                        <span>Мастер</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__scroll">
+                <div class="tab-content _tab1 _active">
+                    <div class="param-modal__groups">
+                        <div class="param-field">
+                            <div class="param-field__title text20 font2 medium-text">
+                                Регион
+                            </div>
+                            <div class="param-select">
+                                <div class="param-select__show">
+                                    <div class="param-select__current">
+                                        Москва
+                                    </div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.00134 14.5C8.90968 14.5001 8.8189 14.4821 8.73422 14.447C8.64954 14.4119 8.57263 14.3604 8.50791 14.2955L1.52875 7.31639C1.25604 7.04368 1.25604 6.60207 1.52875 6.32953C1.80146 6.057 2.24307 6.05682 2.5156 6.32953L9.00134 12.8153L15.4871 6.32953C15.7598 6.05682 16.2014 6.05682 16.4739 6.32953C16.7465 6.60224 16.7466 7.04385 16.4739 7.31639L9.49476 14.2955C9.43004 14.3604 9.35313 14.4119 9.26845 14.447C9.18377 14.4821 9.093 14.5001 9.00134 14.5Z" fill="black" />
+                                    </svg>
+                                </div>
+                                <div class="param-select__hidden">
+                                    <div class="param-select__items">
+                                        <div class="param-select__option m-check">
+                                            <input checked type="checkbox" data-value="Москва">
+                                            <label><span>Москва</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Санкт-Петербург">
+                                            <label><span>Санкт-Петербург</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Казань">
+                                            <label><span>Казань</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Уфа">
+                                            <label><span>Уфа</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-group">
+                            <div class="param-group__title text20 font2 medium-text">
+                                Формат мероприятия
+                            </div>
+                            <div class="param-group__items">
+                                <div class="radio-btn">
+                                    <input type="radio" checked name="eventFormat">
+                                    <label>Все</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventFormat">
+                                    <label>Онлайн</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventFormat">
+                                    <label>Оффлайн</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-group">
+                            <div class="param-group__title text20 font2 medium-text">
+                                Тип мероприятия
+                            </div>
+                            <div class="param-group__items">
+                                <div class="radio-btn">
+                                    <input type="radio" checked name="eventType">
+                                    <label>Все</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventType">
+                                    <label>Платное</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventType">
+                                    <label>Бесплатное</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-group">
+                            <div class="param-group__title text20 font2 medium-text">
+                                Для кого
+                            </div>
+                            <div class="param-group__items">
+                                <div class="radio-btn">
+                                    <input type="radio" checked name="eventSex">
+                                    <label>Всех</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventSex">
+                                    <label>Мужчин</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventSex">
+                                    <label>Женщин</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="param-modal__groups">
+                        <div class="param-group">
+                            <div class="param-group__title text20 font2 medium-text">
+                                Создатель мероприятия
+                            </div>
+                            <div class="param-group__items">
+                                <div class="radio-btn">
+                                    <input type="radio" checked name="eventMaker">
+                                    <label>Все</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventMaker">
+                                    <label>Мастер</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventMaker">
+                                    <label>Пользователь</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="param-duration">
+                        <div class="param-duration__title text20 font2 medium-text">
+                            Длительность мероприятия
+                        </div>
+                        <div class="param-duration__view1">
+                            <div class="filter-slider" data-min="1" data-max="6">
+                                <div class="filter-slider__item">
+                                    <div class="range-slider"></div>
+                                    <input type="hidden" class="range-slider__input">
+                                </div>
+                                <div class="filter-slider__bottom _flex-between">
+                                    <div class="filter-slider__title">Любая</div>
+                                    <div class="filter-slider__title">1-2 часа</div>
+                                    <div class="filter-slider__title">3-12 часов</div>
+                                    <div class="filter-slider__title">1 день</div>
+                                    <div class="filter-slider__title">2-4 дня</div>
+                                    <div class="filter-slider__title">5 дней и более</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-duration__view2">
+                            <div class="param-select">
+                                <div class="param-select__show">
+                                    <div class="param-select__current">
+                                        1-2 часа
+                                    </div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.00134 14.5C8.90968 14.5001 8.8189 14.4821 8.73422 14.447C8.64954 14.4119 8.57263 14.3604 8.50791 14.2955L1.52875 7.31639C1.25604 7.04368 1.25604 6.60207 1.52875 6.32953C1.80146 6.057 2.24307 6.05682 2.5156 6.32953L9.00134 12.8153L15.4871 6.32953C15.7598 6.05682 16.2014 6.05682 16.4739 6.32953C16.7465 6.60224 16.7466 7.04385 16.4739 7.31639L9.49476 14.2955C9.43004 14.3604 9.35313 14.4119 9.26845 14.447C9.18377 14.4821 9.093 14.5001 9.00134 14.5Z" fill="black" />
+                                    </svg>
+                                </div>
+                                <div class="param-select__hidden">
+                                    <div class="param-select__items">
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="Любая" name="eventDuration">
+                                            <label><span>Любая</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input checked type="radio" data-value="1-2 часа" name="eventDuration">
+                                            <label><span>1-2 часа</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="3-12 часов" name="eventDuration">
+                                            <label><span>3-12 часов</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="1 день" name="eventDuration">
+                                            <label><span>1 день</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="2-4 дня" name="eventDuration">
+                                            <label><span>2-4 дня</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="5 дней и более" name="eventDuration">
+                                            <label><span>5 дней и более</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="param-category publication-category">
+                        <div class="publication-category__top">
+                            <div class="text20 font2 medium-text">
+                                Категория мероприятия
+                            </div>
+                        </div>
+                        <div class="param-category__view1">
+                            <div class="publication-category__items _flex">
+                                <div class="m-badge">
+                                    <img src="img/type-icon.svg" alt="">
+                                    <span>Йога</span>
+                                    <button class="m-badge__remove">
+                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1L13.5 13" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" />
+                                            <path d="M13.5 1L1.5 13" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="m-badge">
+                                    <img src="img/type-icon2.svg" alt="">
+                                    <span>Баня</span>
+                                    <button class="m-badge__remove">
+                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1L13.5 13" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" />
+                                            <path d="M13.5 1L1.5 13" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="publication-category__items2 _flex">
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Дыхание</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Цигун</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тантра</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Фестиваль</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Семинар</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Танцы</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Спортивное мероприятие</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Мастер-класс</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Шоу</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Общение</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Выставка</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Нейрографика</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Нетворгкинг</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Игры</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Общение</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Курсы</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Праздничное</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Обучение</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Лекция</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Ретрит</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Ярмарка</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Гвоздестояние</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Медитация</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Звуковая медитация</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Шибари</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Чайные церемонии</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Гипноз</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Кино</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Треннинг</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Растяжка</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-category__view2">
+                            <div class="param-select">
+                                <div class="param-select__show">
+                                    <div class="param-select__current">
+                                        Цигун
+                                    </div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.00134 14.5C8.90968 14.5001 8.8189 14.4821 8.73422 14.447C8.64954 14.4119 8.57263 14.3604 8.50791 14.2955L1.52875 7.31639C1.25604 7.04368 1.25604 6.60207 1.52875 6.32953C1.80146 6.057 2.24307 6.05682 2.5156 6.32953L9.00134 12.8153L15.4871 6.32953C15.7598 6.05682 16.2014 6.05682 16.4739 6.32953C16.7465 6.60224 16.7466 7.04385 16.4739 7.31639L9.49476 14.2955C9.43004 14.3604 9.35313 14.4119 9.26845 14.447C9.18377 14.4821 9.093 14.5001 9.00134 14.5Z" fill="black" />
+                                    </svg>
+                                </div>
+                                <div class="param-select__hidden">
+                                    <div class="param-select__items">
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Цигун">
+                                            <label><span>Цигун</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Тантра">
+                                            <label><span>Цигун</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Фестиваль">
+                                            <label><span>Фестиваль</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Семинар">
+                                            <label><span>Семинар</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Танцы">
+                                            <label><span>Танцы</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Спортивное мероприятие">
+                                            <label><span>Танцы</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Мастер-класс">
+                                            <label><span>Мастер-класс</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Шоу">
+                                            <label><span>Шоу</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="param-modal__nav">
+                        <button class="param-modal__btn m-btn m-btn-gray">
+                            <span>Сбросить</span>
+                        </button>
+                        <button class="param-modal__btn param-modal__btn--confirm m-btn m-btn-primary">
+                            <span>Применить</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="tab-content _tab2">
+                    <div class="param-modal__groups">
+                        <div class="param-field">
+                            <div class="param-field__title text20 font2 medium-text">
+                                Регион
+                            </div>
+                            <div class="param-select">
+                                <div class="param-select__show">
+                                    <div class="param-select__current">
+                                        Москва
+                                    </div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.00134 14.5C8.90968 14.5001 8.8189 14.4821 8.73422 14.447C8.64954 14.4119 8.57263 14.3604 8.50791 14.2955L1.52875 7.31639C1.25604 7.04368 1.25604 6.60207 1.52875 6.32953C1.80146 6.057 2.24307 6.05682 2.5156 6.32953L9.00134 12.8153L15.4871 6.32953C15.7598 6.05682 16.2014 6.05682 16.4739 6.32953C16.7465 6.60224 16.7466 7.04385 16.4739 7.31639L9.49476 14.2955C9.43004 14.3604 9.35313 14.4119 9.26845 14.447C9.18377 14.4821 9.093 14.5001 9.00134 14.5Z" fill="black" />
+                                    </svg>
+                                </div>
+                                <div class="param-select__hidden">
+                                    <div class="param-select__items">
+                                        <div class="param-select__option m-check">
+                                            <input checked type="checkbox" data-value="Москва">
+                                            <label><span>Москва</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Санкт-Петербург">
+                                            <label><span>Санкт-Петербург</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Казань">
+                                            <label><span>Казань</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Уфа">
+                                            <label><span>Уфа</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-group">
+                            <div class="param-group__title text20 font2 medium-text">
+                                Пол
+                            </div>
+                            <div class="param-group__items">
+                                <div class="radio-btn">
+                                    <input type="radio" checked name="sex">
+                                    <label>Любой</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="sex">
+                                    <label>Любой</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="sex">
+                                    <label>Мужской</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-group">
+                            <div class="param-group__title text20 font2 medium-text">
+                                Формат мероприятия
+                            </div>
+                            <div class="param-group__items">
+                                <div class="radio-btn">
+                                    <input type="radio" checked name="eventFormat2">
+                                    <label>Все</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventFormat2">
+                                    <label>Онлайн</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input type="radio" name="eventFormat2">
+                                    <label>Оффлайн</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="param-duration">
+                        <div class="param-duration__title text20 font2 medium-text">
+                            Стаж
+                        </div>
+                        <div class="param-duration__view1">
+                            <div class="filter-slider filter-slider2" data-min="1" data-max="5">
+                                <div class="filter-slider__item">
+                                    <div class="range-slider"></div>
+                                    <input type="hidden" class="range-slider__input">
+                                </div>
+                                <div class="filter-slider__bottom _flex-between">
+                                    <div class="filter-slider__title">Любая</div>
+                                    <div class="filter-slider__title">6-12 месяцев</div>
+                                    <div class="filter-slider__title">1-3 года</div>
+                                    <div class="filter-slider__title">4-7 лет</div>
+                                    <div class="filter-slider__title">8 лет и более</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-duration__view2">
+                            <div class="param-select">
+                                <div class="param-select__show">
+                                    <div class="param-select__current">
+                                        1-2 часа
+                                    </div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.00134 14.5C8.90968 14.5001 8.8189 14.4821 8.73422 14.447C8.64954 14.4119 8.57263 14.3604 8.50791 14.2955L1.52875 7.31639C1.25604 7.04368 1.25604 6.60207 1.52875 6.32953C1.80146 6.057 2.24307 6.05682 2.5156 6.32953L9.00134 12.8153L15.4871 6.32953C15.7598 6.05682 16.2014 6.05682 16.4739 6.32953C16.7465 6.60224 16.7466 7.04385 16.4739 7.31639L9.49476 14.2955C9.43004 14.3604 9.35313 14.4119 9.26845 14.447C9.18377 14.4821 9.093 14.5001 9.00134 14.5Z" fill="black" />
+                                    </svg>
+                                </div>
+                                <div class="param-select__hidden">
+                                    <div class="param-select__items">
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="Любая" name="experienceDuration">
+                                            <label><span>Любая</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input checked type="radio" data-value="6-12 месяцев" name="experienceDuration">
+                                            <label><span>6-12 месяцев</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="1-3 года" name="experienceDuration">
+                                            <label><span>1-3 года</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="4-7 лет" name="experienceDuration">
+                                            <label><span>4-7 лет</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="radio" data-value="8 лет и более" name="experienceDuration">
+                                            <label><span>8 лет и более</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="param-category publication-category">
+                        <div class="publication-category__top">
+                            <div class="text20 font2 medium-text">
+                                Вид деятельности
+                            </div>
+                        </div>
+                        <div class="param-category__view1">
+                            <div class="publication-category__items _flex">
+                                <div class="m-badge">
+                                    <span>Массажист</span>
+                                    <button class="m-badge__remove">
+                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1L13.5 13" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" />
+                                            <path d="M13.5 1L1.5 13" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="m-badge">
+                                    <span>Натуропат </span>
+                                    <button class="m-badge__remove">
+                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1L13.5 13" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" />
+                                            <path d="M13.5 1L1.5 13" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="publication-category__items2 _flex">
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Любой</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                                <div class="publication-category__item">
+                                    <img src="img/plus2.svg" alt="">
+                                    <span>Тип</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="param-category__view2">
+                            <div class="param-select">
+                                <div class="param-select__show">
+                                    <div class="param-select__current">
+                                        Любой
+                                    </div>
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.00134 14.5C8.90968 14.5001 8.8189 14.4821 8.73422 14.447C8.64954 14.4119 8.57263 14.3604 8.50791 14.2955L1.52875 7.31639C1.25604 7.04368 1.25604 6.60207 1.52875 6.32953C1.80146 6.057 2.24307 6.05682 2.5156 6.32953L9.00134 12.8153L15.4871 6.32953C15.7598 6.05682 16.2014 6.05682 16.4739 6.32953C16.7465 6.60224 16.7466 7.04385 16.4739 7.31639L9.49476 14.2955C9.43004 14.3604 9.35313 14.4119 9.26845 14.447C9.18377 14.4821 9.093 14.5001 9.00134 14.5Z" fill="black" />
+                                    </svg>
+                                </div>
+                                <div class="param-select__hidden">
+                                    <div class="param-select__items">
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Любой">
+                                            <label><span>Любой</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Тип">
+                                            <label><span>Тип</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Тип">
+                                            <label><span>Тип</span></label>
+                                        </div>
+                                        <div class="param-select__option m-check">
+                                            <input type="checkbox" data-value="Тип">
+                                            <label><span>Тип</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="param-modal__nav">
+                        <button class="param-modal__btn m-btn m-btn-gray">
+                            <span>Сбросить</span>
+                        </button>
+                        <button class="param-modal__btn param-modal__btn--confirm m-btn m-btn-primary">
+                            <span>Применить</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
